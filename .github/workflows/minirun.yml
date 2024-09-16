@@ -16,5 +16,5 @@ jobs:
         with:
           python_ver: '3.12'
           spec: 'minirun.py'
-          upload_exe_with_name: '迷你世界启动器'
+          upload_exe_with_name: 'miniworldrun'
           options: --onefile, --name "minirun", --windowed, 
