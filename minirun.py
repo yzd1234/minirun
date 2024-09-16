@@ -22,7 +22,6 @@ def e():
             f.write(e+"\MicroMiniNew.exe")
 root=tk.Tk()
 root.title("迷你启动器")
-root.iconbitmap('miniworld.ico')
 root.geometry('395x160')
 root.resizable(0,0)
 w = tk.Label(root, text="第一次启动请填入安装网址,并保存").place(x=63,y=3)
