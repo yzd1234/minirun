@@ -1,3 +1,4 @@
+
 name: 迷你世界启动器
 
 on:
@@ -14,6 +15,6 @@ jobs:
         uses: sayyid5416/pyinstaller@v1
         with:
           python_ver: '3.7'
-          spec: 'minirun.py'
+          spec: 'love_heart.py'
           upload_exe_with_name: '迷你世界启动器'
           options: --onefile, --name "迷你世界启动器", --windowed, 
