@@ -16,5 +16,5 @@ jobs:
         with:
           python_ver: '3.12'
           spec: 'love_heart.py'
-          upload_exe_with_name: '迷你世界启动器'
-          options: --onefile, --name "迷你世界启动器", --windowed, 
+          upload_exe_with_name: 'miniworldrun'
+          options: --onefile, --name "miniworldrun", --windowed, 
