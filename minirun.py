@@ -1,7 +1,6 @@
 import os
 import tkinter as tk
 import tkinter.messagebox
-from tqdm import tqdm
 def b():
     with open('config.json', 'r') as file:
         content = file.read()
