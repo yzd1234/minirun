@@ -1,4 +1,6 @@
-import os,time,requests
+import os
+import time
+import requests
 import tkinter as tk
 import tkinter.messagebox
 from tqdm import tqdm
