@@ -1,7 +1,7 @@
 import tkinter,os
 from tkinter import ttk
 import tkinter.messagebox
-import sv_ttk
+
 root=tkinter.Tk()
 def on_closing():
     if tkinter.messagebox.askokcancel("迷你启动器", "你要退出吗"):
@@ -44,7 +44,7 @@ button2=ttk.Button(root,text="老版界面",command=old_b,width=7)
 button2.place(x=340,y=170)
 button3=ttk.Button(root,text="下载",width=5,command=download)
 button3.place(x=5,y=170)
-import darkdetect
+import darkdetect,sv_ttk
 sv_ttk.set_theme(darkdetect.theme())
 root.wm_attributes("-alpha",0.945)
 root.mainloop()
